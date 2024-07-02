@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 434px){
+
 @import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -108,7 +108,7 @@ button:hover {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-}
+@media only screen and (max-width: 434px){
 .home-imghover {
   position: absolute;
   top: 0;
@@ -122,4 +122,5 @@ button:hover {
 .home-imghover:hover {
   background: black;
   opacity: 0.8;
+}
 }
