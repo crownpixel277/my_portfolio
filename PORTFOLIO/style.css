@@ -87,20 +87,7 @@ button:hover {
   background-color: #ededed;
 }
 
-.home-imghover {
-  position: absolute;
-  top: 0;
-  right: 30px;
-  width: 500px;
-  height: 100%;
-  background: transparent;
-  border: 2px solid transparent;
-  transition: 3s;
-}
-.home-imghover:hover {
-  background: black;
-  opacity: 0.8;
-}
+
 
 @keyframes showRight {
   100% {
@@ -121,4 +108,18 @@ button:hover {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+}
+.home-imghover {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 500px;
+  height: 100%;
+  background: transparent;
+  border: 2px solid transparent;
+  transition: 3s;
+}
+.home-imghover:hover {
+  background: black;
+  opacity: 0.8;
 }
